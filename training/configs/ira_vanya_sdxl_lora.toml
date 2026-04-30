@@ -1,0 +1,45 @@
+# SDXL LoRA training config for an original fictional AI influencer.
+# Use only images you generated yourself, photographed yourself, or licensed.
+
+[model]
+pretrained_model_name_or_path = "stabilityai/stable-diffusion-xl-base-1.0"
+vae = ""
+v2 = false
+v_parameterization = false
+
+[train]
+output_dir = "training/models"
+output_name = "ira_vanya_sdxl_lora"
+logging_dir = "training/logs"
+train_data_dir = "training/dataset"
+resolution = "1024,1024"
+enable_bucket = true
+min_bucket_reso = 512
+max_bucket_reso = 1536
+bucket_reso_steps = 64
+network_module = "networks.lora"
+network_dim = 32
+network_alpha = 16
+train_batch_size = 1
+gradient_accumulation_steps = 4
+max_train_steps = 1800
+learning_rate = 0.0001
+unet_lr = 0.0001
+text_encoder_lr = 0.00002
+lr_scheduler = "cosine"
+lr_warmup_steps = 100
+optimizer_type = "AdamW8bit"
+mixed_precision = "bf16"
+save_precision = "fp16"
+save_model_as = "safetensors"
+save_every_n_epochs = 1
+caption_extension = ".txt"
+shuffle_caption = true
+keep_tokens = 1
+seed = 4277
+
+[metadata]
+trigger_word = "iravanyaai"
+character = "Ira Vanya"
+rights = "Original fictional character. Train only on owned, licensed, or AI-generated source images."
+recommended_dataset_size = "20-60 images across close-up, waist-up, full body, front, side, seated, walking, hand gestures, and outdoor lighting variation."

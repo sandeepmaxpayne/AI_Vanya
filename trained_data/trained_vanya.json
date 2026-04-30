@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "character": "Vanya",
+  "trigger_word": "iravanyaai",
+  "description": "Local trained JSON cache for original fictional Vanya outputs. Records are reused before making OpenAI calls.",
+  "created_at": "2026-04-30T04:46:00Z",
+  "updated_at": "2026-04-30T04:46:00Z",
+  "records": [
+    {
+      "id": "seed-reference",
+      "cache_key": "6af3d1918c023cfd653e01f7",
+      "output_type": "image",
+      "request": {
+        "prompt": "Vanya walking through a lush tropical garden at golden hour, glamorous mature nature influencer, confident smile",
+        "output_type": "image",
+        "pose": "confident three-quarter fashion editorial pose",
+        "setting": "lush nature location at golden hour",
+        "outfit": "tasteful fitted nature-inspired fashion outfit",
+        "frame_count": 4,
+        "duration_seconds": 8,
+        "quality": "medium",
+        "use_trained_json": true,
+        "offline_only": false
+      },
+      "search_text": "vanya walking through a lush tropical garden at golden hour glamorous mature nature influencer confident smile confident three quarter fashion editorial pose lush nature location at golden hour tasteful fitted nature inspired fashion outfit",
+      "final_prompt": "Use case: photorealistic-natural\nAsset type: AI-generated influencer image\nCharacter bible: \nOriginal fictional adult female AI influencer named Ira Vanya.\nNature-forward luxury lifestyle persona, South Asian-inspired but not based on\nany real person, expressive brown eyes, long dark wavy hair, warm sun-kissed\nskin, natural makeup, confident editorial presence, elegant modern wardrobe.\nTasteful glamorous energy only: no nudity, no explicit pose, no transparent or\nfetish clothing, no watermark, no text, no logo.\n\nPrimary request: Vanya walking through a lush tropical garden at golden hour, glamorous mature nature influencer, confident smile\nPose: confident three-quarter fashion editorial pose\nPosture: confident mature fashion-editorial posture\nScene/backdrop: lush nature location at golden hour\nWardrobe: tasteful fitted nature-inspired fashion outfit\nStyle/medium: photorealistic high-end fashion and nature lifestyle photography\nComposition/framing: vertical social-media campaign frame, polished influencer\nportrait, realistic anatomy, natural hands, clean depth of field\nLighting/mood: warm golden-hour light, fresh, confident, aspirational\nConstraints: \nCreate an original fictional person only. Do not copy, imitate, or recreate the\nlikeness of Vrutika Patel, celebrities, influencers, private people, or any real\nperson. If a reference image is supplied, use it only as a broad character\nconsistency reference when the user owns or has licensed it.\n\nAvoid: nudity, explicit sexual content, copied real-person likeness, text, logo,\nwatermark, distorted hands, extra fingers, plastic skin, uncanny face",
+      "files": [
+        "outputs/trained_cache/vanya_seed_reference.png"
+      ],
+      "url": "/outputs/trained_cache/vanya_seed_reference.png",
+      "source": "seed-reference",
+      "created_at": "2026-04-30T04:46:00Z"
+    }
+  ]
+}

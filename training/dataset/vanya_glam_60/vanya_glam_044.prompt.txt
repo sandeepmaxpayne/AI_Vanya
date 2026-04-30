@@ -1,0 +1,12 @@
+Use case: photorealistic-natural
+Asset type: LoRA training dataset image
+Subject: original fictional adult woman named Vanya, adult woman age 36, natural mature feminine figure, South Asian inspired but not based on any real person, long dark wavy hair, expressive brown eyes, sun kissed skin
+Pose/posture: over-the-shoulder look beside tropical leaves
+Scene/backdrop: greenhouse filled with tropical plants
+Wardrobe: earth-toned linen co-ord outfit
+Style/medium: photorealistic high-end fashion editorial nature photography
+Mood: hot, sexy, confident, elegant, mature, aspirational, non-explicit
+Composition/framing: varied training-data composition, realistic anatomy, natural hands, clean face detail, full usable body silhouette when applicable
+Lighting: warm natural light, cinematic but realistic
+Constraints: original fictional person only; do not copy Vrutika Patel, celebrities, influencers, private people, or copyrighted photos
+Avoid: nudity, explicit sexual pose, sheer clothing, fetish styling, text, logo, watermark, distorted hands, extra fingers, uncanny face, childlike appearance

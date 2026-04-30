@@ -1,0 +1,46 @@
+# SDXL LoRA training config for the 60-image original Vanya glam dataset.
+# Use only owned, licensed, or AI-generated images in this folder.
+
+[model]
+pretrained_model_name_or_path = "stabilityai/stable-diffusion-xl-base-1.0"
+vae = ""
+v2 = false
+v_parameterization = false
+
+[train]
+output_dir = "training/models"
+output_name = "vanya_glam_60_sdxl_lora"
+logging_dir = "training/logs/vanya_glam_60"
+train_data_dir = "training/dataset/vanya_glam_60"
+resolution = "1024,1024"
+enable_bucket = true
+min_bucket_reso = 512
+max_bucket_reso = 1536
+bucket_reso_steps = 64
+network_module = "networks.lora"
+network_dim = 32
+network_alpha = 16
+train_batch_size = 1
+gradient_accumulation_steps = 4
+max_train_steps = 2400
+learning_rate = 0.0001
+unet_lr = 0.0001
+text_encoder_lr = 0.00002
+lr_scheduler = "cosine"
+lr_warmup_steps = 120
+optimizer_type = "AdamW8bit"
+mixed_precision = "bf16"
+save_precision = "fp16"
+save_model_as = "safetensors"
+save_every_n_epochs = 1
+caption_extension = ".txt"
+shuffle_caption = true
+keep_tokens = 1
+seed = 6201
+
+[metadata]
+trigger_word = "iravanyaai"
+character = "Vanya"
+dataset = "training/dataset/vanya_glam_60"
+rights = "Original fictional adult character. Train only on owned, licensed, or AI-generated images."
+expected_output = "training/models/vanya_glam_60_sdxl_lora.safetensors"
