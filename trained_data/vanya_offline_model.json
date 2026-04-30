@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "model_name": "vanya-offline-local-v1",
+  "character": "Vanya",
+  "trigger_word": "iravanyaai",
+  "mode": "offline",
+  "billing": "none",
+  "source_assets": [
+    "assets/ai_influencer_reference.png",
+    "outputs/trained_cache/vanya_seed_reference.png",
+    "trained_data/trained_vanya.json"
+  ],
+  "description": "A local prompt-to-media cache model for the original fictional Vanya character. It does not call external APIs by default. New prompts are rendered locally from the reference image, prompt keywords, and deterministic visual transforms, then saved into trained_vanya.json for future offline reuse.",
+  "style_profile": {
+    "subject": "original fictional adult woman named Vanya",
+    "age_range": "30-39",
+    "visual_style": "nature glamour, mature fashion editorial, non-explicit",
+    "constraints": [
+      "no real-person likeness",
+      "no copyrighted person reference",
+      "no nudity",
+      "no explicit sexual pose",
+      "no watermark",
+      "no logo"
+    ]
+  },
+  "offline_generation": {
+    "image_size": "1024x1536",
+    "reel_size": "1080x1920",
+    "cache_behavior": "Exact prompt/settings hits are reused from trained_vanya.json. New prompt/settings are rendered locally and added to the JSON."
+  }
+}

@@ -4,7 +4,7 @@
   "trigger_word": "iravanyaai",
   "description": "Local trained JSON cache for original fictional Vanya outputs. Records are reused before making OpenAI calls.",
   "created_at": "2026-04-30T04:46:00Z",
-  "updated_at": "2026-04-30T04:46:00Z",
+  "updated_at": "2026-04-30T05:05:55Z",
   "records": [
     {
       "id": "seed-reference",
@@ -29,7 +29,885 @@
       ],
       "url": "/outputs/trained_cache/vanya_seed_reference.png",
       "source": "seed-reference",
-      "created_at": "2026-04-30T04:46:00Z"
+      "created_at": "2026-04-30T04:46:00Z",
+      "learned_profile": {
+        "profile_schema_version": 3,
+        "position": {
+          "primary": "walking",
+          "tags": [
+            "walking"
+          ],
+          "source_text": "confident three-quarter fashion editorial pose"
+        },
+        "posture": {
+          "primary": "confident",
+          "tags": [
+            "confident",
+            "editorial",
+            "soft smile"
+          ],
+          "source_text": "confident three-quarter fashion editorial pose"
+        },
+        "structure": {
+          "primary": "three-quarter",
+          "tags": [
+            "three-quarter",
+            "mature adult"
+          ],
+          "framing": "three-quarter",
+          "body_style_tags": [
+            "mature adult"
+          ]
+        },
+        "setting": {
+          "primary": "tropical garden",
+          "tags": [
+            "tropical garden",
+            "sunset"
+          ],
+          "source_text": "lush nature location at golden hour"
+        },
+        "outfit": {
+          "primary": "tasteful fitted nature inspired fashion outfit",
+          "tags": [],
+          "source_text": "tasteful fitted nature-inspired fashion outfit"
+        },
+        "mood": {
+          "primary": "glamorous",
+          "tags": [
+            "glamorous",
+            "natural"
+          ]
+        },
+        "training_caption": "iravanyaai, original fictional adult woman, walking, confident, three-quarter, mature adult, tropical garden, tasteful fitted nature inspired fashion outfit, mature nature glamour influencer, non explicit",
+        "training_keywords": [
+          "confident",
+          "editorial",
+          "fashion",
+          "fitted",
+          "garden",
+          "glamorous",
+          "golden",
+          "hour",
+          "influencer",
+          "inspired",
+          "location",
+          "lush",
+          "mature",
+          "nature",
+          "outfit",
+          "pose",
+          "quarter",
+          "smile",
+          "tasteful",
+          "three",
+          "through",
+          "tropical",
+          "walking"
+        ],
+        "safety": {
+          "real_person_likeness": "blocked",
+          "explicit_content": "blocked",
+          "mode": "original fictional adult character"
+        }
+      },
+      "position": {
+        "primary": "walking",
+        "tags": [
+          "walking"
+        ],
+        "source_text": "confident three-quarter fashion editorial pose"
+      },
+      "posture": {
+        "primary": "confident",
+        "tags": [
+          "confident",
+          "editorial",
+          "soft smile"
+        ],
+        "source_text": "confident three-quarter fashion editorial pose"
+      },
+      "structure": {
+        "primary": "three-quarter",
+        "tags": [
+          "three-quarter",
+          "mature adult"
+        ],
+        "framing": "three-quarter",
+        "body_style_tags": [
+          "mature adult"
+        ]
+      },
+      "training_caption": "iravanyaai, original fictional adult woman, walking, confident, three-quarter, mature adult, tropical garden, tasteful fitted nature inspired fashion outfit, mature nature glamour influencer, non explicit",
+      "trained_images": [
+        "outputs/trained_cache/vanya_seed_reference.png"
+      ]
+    },
+    {
+      "id": "a723bd2be344d69adb702b1a",
+      "cache_key": "a723bd2be344d69adb702b1a",
+      "output_type": "image",
+      "request": {
+        "prompt": "Vanya in a rainy botanical greenhouse, mature elegant nature influencer",
+        "output_type": "image",
+        "pose": "standing near glass wall with calm confident pose",
+        "setting": "rainy botanical greenhouse",
+        "outfit": "tasteful emerald fashion outfit",
+        "frame_count": 4,
+        "duration_seconds": 8,
+        "quality": "medium",
+        "use_trained_json": true,
+        "offline_only": true
+      },
+      "search_text": "vanya in a rainy botanical greenhouse mature elegant nature influencer standing near glass wall with calm confident pose rainy botanical greenhouse tasteful emerald fashion outfit",
+      "final_prompt": "Use case: photorealistic-natural\nAsset type: AI-generated influencer image\nCharacter bible: \nOriginal fictional adult female AI influencer named Ira Vanya.\nNature-forward luxury lifestyle persona, South Asian-inspired but not based on\nany real person, expressive brown eyes, long dark wavy hair, warm sun-kissed\nskin, natural makeup, confident editorial presence, elegant modern wardrobe.\nTasteful glamorous energy only: no nudity, no explicit pose, no transparent or\nfetish clothing, no watermark, no text, no logo.\n\nPrimary request: Vanya in a rainy botanical greenhouse, mature elegant nature influencer\nPose: standing near glass wall with calm confident pose\nPosture: confident mature fashion-editorial posture\nScene/backdrop: rainy botanical greenhouse\nWardrobe: tasteful emerald fashion outfit\nStyle/medium: photorealistic high-end fashion and nature lifestyle photography\nComposition/framing: vertical social-media campaign frame, polished influencer\nportrait, realistic anatomy, natural hands, clean depth of field\nLighting/mood: warm golden-hour light, fresh, confident, aspirational\nConstraints: \nCreate an original fictional person only. Do not copy, imitate, or recreate the\nlikeness of Vrutika Patel, celebrities, influencers, private people, or any real\nperson. If a reference image is supplied, use it only as a broad character\nconsistency reference when the user owns or has licensed it.\n\nAvoid: nudity, explicit sexual content, copied real-person likeness, text, logo,\nwatermark, distorted hands, extra fingers, plastic skin, uncanny face",
+      "files": [
+        "outputs/trained_cache/offline-a723bd2be344d69adb702b1a.png"
+      ],
+      "url": "/outputs/trained_cache/offline-a723bd2be344d69adb702b1a.png",
+      "source": "offline-local-model",
+      "created_at": "2026-04-30T04:55:59Z",
+      "learned_profile": {
+        "profile_schema_version": 3,
+        "position": {
+          "primary": "standing",
+          "tags": [
+            "standing"
+          ],
+          "source_text": "standing near glass wall with calm confident pose"
+        },
+        "posture": {
+          "primary": "confident",
+          "tags": [
+            "confident",
+            "relaxed",
+            "elegant",
+            "editorial"
+          ],
+          "source_text": "standing near glass wall with calm confident pose"
+        },
+        "structure": {
+          "primary": "portrait",
+          "tags": [
+            "mature adult"
+          ],
+          "framing": "portrait",
+          "body_style_tags": [
+            "mature adult"
+          ]
+        },
+        "setting": {
+          "primary": "tropical garden",
+          "tags": [
+            "tropical garden",
+            "greenhouse",
+            "rainy"
+          ],
+          "source_text": "rainy botanical greenhouse"
+        },
+        "outfit": {
+          "primary": "earth tone",
+          "tags": [
+            "earth tone"
+          ],
+          "source_text": "tasteful emerald fashion outfit"
+        },
+        "mood": {
+          "primary": "natural",
+          "tags": [
+            "natural"
+          ]
+        },
+        "training_caption": "iravanyaai, original fictional adult woman, standing, confident, mature adult, tropical garden, earth tone, mature nature glamour influencer, non explicit",
+        "training_keywords": [
+          "botanical",
+          "calm",
+          "confident",
+          "elegant",
+          "emerald",
+          "fashion",
+          "glass",
+          "greenhouse",
+          "influencer",
+          "mature",
+          "nature",
+          "near",
+          "outfit",
+          "pose",
+          "rainy",
+          "standing",
+          "tasteful",
+          "wall"
+        ],
+        "safety": {
+          "real_person_likeness": "blocked",
+          "explicit_content": "blocked",
+          "mode": "original fictional adult character"
+        }
+      },
+      "position": {
+        "primary": "standing",
+        "tags": [
+          "standing"
+        ],
+        "source_text": "standing near glass wall with calm confident pose"
+      },
+      "posture": {
+        "primary": "confident",
+        "tags": [
+          "confident",
+          "relaxed",
+          "elegant",
+          "editorial"
+        ],
+        "source_text": "standing near glass wall with calm confident pose"
+      },
+      "structure": {
+        "primary": "portrait",
+        "tags": [
+          "mature adult"
+        ],
+        "framing": "portrait",
+        "body_style_tags": [
+          "mature adult"
+        ]
+      },
+      "training_caption": "iravanyaai, original fictional adult woman, standing, confident, mature adult, tropical garden, earth tone, mature nature glamour influencer, non explicit",
+      "trained_images": [
+        "outputs/trained_cache/offline-a723bd2be344d69adb702b1a.png"
+      ]
+    },
+    {
+      "id": "5089910671b24cfd7d793c3c",
+      "cache_key": "5089910671b24cfd7d793c3c",
+      "output_type": "reel",
+      "request": {
+        "prompt": "Vanya walking in a sunset forest path, mature elegant influencer reel",
+        "output_type": "reel",
+        "pose": "slow walking editorial pose",
+        "setting": "sunset forest path",
+        "outfit": "tasteful olive dress",
+        "frame_count": 2,
+        "duration_seconds": 3,
+        "quality": "medium",
+        "use_trained_json": true,
+        "offline_only": true
+      },
+      "search_text": "vanya walking in a sunset forest path mature elegant influencer reel slow walking editorial pose sunset forest path tasteful olive dress",
+      "final_prompt": "Use case: photorealistic-natural\nAsset type: AI-generated influencer image\nCharacter bible: \nOriginal fictional adult female AI influencer named Ira Vanya.\nNature-forward luxury lifestyle persona, South Asian-inspired but not based on\nany real person, expressive brown eyes, long dark wavy hair, warm sun-kissed\nskin, natural makeup, confident editorial presence, elegant modern wardrobe.\nTasteful glamorous energy only: no nudity, no explicit pose, no transparent or\nfetish clothing, no watermark, no text, no logo.\n\nPrimary request: Vanya walking in a sunset forest path, mature elegant influencer reel\nPose: slow walking editorial pose\nPosture: confident mature fashion-editorial posture\nScene/backdrop: sunset forest path\nWardrobe: tasteful olive dress\nStyle/medium: photorealistic high-end fashion and nature lifestyle photography\nComposition/framing: vertical social-media campaign frame, polished influencer\nportrait, realistic anatomy, natural hands, clean depth of field\nLighting/mood: warm golden-hour light, fresh, confident, aspirational\nConstraints: \nCreate an original fictional person only. Do not copy, imitate, or recreate the\nlikeness of Vrutika Patel, celebrities, influencers, private people, or any real\nperson. If a reference image is supplied, use it only as a broad character\nconsistency reference when the user owns or has licensed it.\n\nAvoid: nudity, explicit sexual content, copied real-person likeness, text, logo,\nwatermark, distorted hands, extra fingers, plastic skin, uncanny face",
+      "files": [
+        "outputs/trained_cache/offline-5089910671b24cfd7d793c3c-f01.png",
+        "outputs/trained_cache/offline-5089910671b24cfd7d793c3c-f02.png",
+        "outputs/20260430-045614-offline-vanya-walking-in-a-sunset-forest-path-mature-elegant-reel.mp4"
+      ],
+      "url": "/outputs/20260430-045614-offline-vanya-walking-in-a-sunset-forest-path-mature-elegant-reel.mp4",
+      "source": "offline-local-model",
+      "created_at": "2026-04-30T04:56:22Z",
+      "learned_profile": {
+        "profile_schema_version": 3,
+        "position": {
+          "primary": "walking",
+          "tags": [
+            "walking"
+          ],
+          "source_text": "slow walking editorial pose"
+        },
+        "posture": {
+          "primary": "elegant",
+          "tags": [
+            "elegant",
+            "editorial"
+          ],
+          "source_text": "slow walking editorial pose"
+        },
+        "structure": {
+          "primary": "portrait",
+          "tags": [
+            "mature adult"
+          ],
+          "framing": "portrait",
+          "body_style_tags": [
+            "mature adult"
+          ]
+        },
+        "setting": {
+          "primary": "forest",
+          "tags": [
+            "forest",
+            "sunset"
+          ],
+          "source_text": "sunset forest path"
+        },
+        "outfit": {
+          "primary": "dress",
+          "tags": [
+            "dress",
+            "earth tone"
+          ],
+          "source_text": "tasteful olive dress"
+        },
+        "mood": {
+          "primary": "natural",
+          "tags": []
+        },
+        "training_caption": "iravanyaai, original fictional adult woman, walking, elegant, mature adult, forest, dress, mature nature glamour influencer, non explicit",
+        "training_keywords": [
+          "dress",
+          "editorial",
+          "elegant",
+          "forest",
+          "influencer",
+          "mature",
+          "olive",
+          "path",
+          "pose",
+          "slow",
+          "sunset",
+          "tasteful",
+          "walking"
+        ],
+        "safety": {
+          "real_person_likeness": "blocked",
+          "explicit_content": "blocked",
+          "mode": "original fictional adult character"
+        }
+      },
+      "position": {
+        "primary": "walking",
+        "tags": [
+          "walking"
+        ],
+        "source_text": "slow walking editorial pose"
+      },
+      "posture": {
+        "primary": "elegant",
+        "tags": [
+          "elegant",
+          "editorial"
+        ],
+        "source_text": "slow walking editorial pose"
+      },
+      "structure": {
+        "primary": "portrait",
+        "tags": [
+          "mature adult"
+        ],
+        "framing": "portrait",
+        "body_style_tags": [
+          "mature adult"
+        ]
+      },
+      "training_caption": "iravanyaai, original fictional adult woman, walking, elegant, mature adult, forest, dress, mature nature glamour influencer, non explicit",
+      "trained_images": [
+        "outputs/trained_cache/offline-5089910671b24cfd7d793c3c-f01.png",
+        "outputs/trained_cache/offline-5089910671b24cfd7d793c3c-f02.png"
+      ]
+    },
+    {
+      "id": "8f104b44e3a856ff1a41112b",
+      "cache_key": "8f104b44e3a856ff1a41112b",
+      "output_type": "image",
+      "request": {
+        "prompt": "Vanya full body seated on a wooden deck in a tropical garden, mature elegant glamour portrait",
+        "output_type": "image",
+        "pose": "seated with one hand on waist and direct gaze",
+        "setting": "tropical garden wooden deck",
+        "outfit": "tasteful white linen dress",
+        "frame_count": 4,
+        "duration_seconds": 8,
+        "quality": "medium",
+        "use_trained_json": true,
+        "offline_only": true
+      },
+      "search_text": "vanya full body seated on a wooden deck in a tropical garden mature elegant glamour portrait seated with one hand on waist and direct gaze tropical garden wooden deck tasteful white linen dress",
+      "final_prompt": "Use case: photorealistic-natural\nAsset type: AI-generated influencer image\nCharacter bible: \nOriginal fictional adult female AI influencer named Ira Vanya.\nNature-forward luxury lifestyle persona, South Asian-inspired but not based on\nany real person, expressive brown eyes, long dark wavy hair, warm sun-kissed\nskin, natural makeup, confident editorial presence, elegant modern wardrobe.\nTasteful glamorous energy only: no nudity, no explicit pose, no transparent or\nfetish clothing, no watermark, no text, no logo.\n\nPrimary request: Vanya full body seated on a wooden deck in a tropical garden, mature elegant glamour portrait\nPose: seated with one hand on waist and direct gaze\nPosture: confident mature fashion-editorial posture\nScene/backdrop: tropical garden wooden deck\nWardrobe: tasteful white linen dress\nStyle/medium: photorealistic high-end fashion and nature lifestyle photography\nComposition/framing: vertical social-media campaign frame, polished influencer\nportrait, realistic anatomy, natural hands, clean depth of field\nLighting/mood: warm golden-hour light, fresh, confident, aspirational\nConstraints: \nCreate an original fictional person only. Do not copy, imitate, or recreate the\nlikeness of Vrutika Patel, celebrities, influencers, private people, or any real\nperson. If a reference image is supplied, use it only as a broad character\nconsistency reference when the user owns or has licensed it.\n\nAvoid: nudity, explicit sexual content, copied real-person likeness, text, logo,\nwatermark, distorted hands, extra fingers, plastic skin, uncanny face",
+      "learned_profile": {
+        "profile_schema_version": 3,
+        "position": {
+          "primary": "seated",
+          "tags": [
+            "seated"
+          ],
+          "source_text": "seated with one hand on waist and direct gaze"
+        },
+        "posture": {
+          "primary": "elegant",
+          "tags": [
+            "elegant",
+            "hands on waist",
+            "direct gaze"
+          ],
+          "source_text": "seated with one hand on waist and direct gaze"
+        },
+        "structure": {
+          "primary": "full-body",
+          "tags": [
+            "full-body",
+            "portrait",
+            "mature adult"
+          ],
+          "framing": "full-body",
+          "body_style_tags": [
+            "mature adult"
+          ]
+        },
+        "setting": {
+          "primary": "tropical garden",
+          "tags": [
+            "tropical garden"
+          ],
+          "source_text": "tropical garden wooden deck"
+        },
+        "outfit": {
+          "primary": "dress",
+          "tags": [
+            "dress",
+            "linen",
+            "white outfit"
+          ],
+          "source_text": "tasteful white linen dress"
+        },
+        "mood": {
+          "primary": "glamorous",
+          "tags": [
+            "glamorous"
+          ]
+        },
+        "training_caption": "iravanyaai, original fictional adult woman, seated, elegant, full-body, portrait, mature adult, tropical garden, dress, mature nature glamour influencer, non explicit",
+        "training_keywords": [
+          "body",
+          "deck",
+          "direct",
+          "dress",
+          "elegant",
+          "full",
+          "garden",
+          "gaze",
+          "glamour",
+          "hand",
+          "linen",
+          "mature",
+          "one",
+          "portrait",
+          "seated",
+          "tasteful",
+          "tropical",
+          "waist",
+          "white",
+          "wooden"
+        ],
+        "safety": {
+          "real_person_likeness": "blocked",
+          "explicit_content": "blocked",
+          "mode": "original fictional adult character"
+        }
+      },
+      "position": {
+        "primary": "seated",
+        "tags": [
+          "seated"
+        ],
+        "source_text": "seated with one hand on waist and direct gaze"
+      },
+      "posture": {
+        "primary": "elegant",
+        "tags": [
+          "elegant",
+          "hands on waist",
+          "direct gaze"
+        ],
+        "source_text": "seated with one hand on waist and direct gaze"
+      },
+      "structure": {
+        "primary": "full-body",
+        "tags": [
+          "full-body",
+          "portrait",
+          "mature adult"
+        ],
+        "framing": "full-body",
+        "body_style_tags": [
+          "mature adult"
+        ]
+      },
+      "training_caption": "iravanyaai, original fictional adult woman, seated, elegant, full-body, portrait, mature adult, tropical garden, dress, mature nature glamour influencer, non explicit",
+      "trained_images": [
+        "outputs/trained_cache/offline-8f104b44e3a856ff1a41112b.png"
+      ],
+      "files": [
+        "outputs/trained_cache/offline-8f104b44e3a856ff1a41112b.png"
+      ],
+      "url": "/outputs/trained_cache/offline-8f104b44e3a856ff1a41112b.png",
+      "source": "offline-local-model",
+      "created_at": "2026-04-30T04:58:37Z"
+    },
+    {
+      "id": "a0577403e460819d143976ae",
+      "cache_key": "a0577403e460819d143976ae",
+      "output_type": "image",
+      "request": {
+        "prompt": "Vanya waist-up leaning against a stone wall near a waterfall, calm cinematic nature model",
+        "output_type": "image",
+        "pose": "leaning with arms folded and relaxed smile",
+        "setting": "waterfall forest stone wall",
+        "outfit": "tasteful black satin blouse",
+        "frame_count": 4,
+        "duration_seconds": 8,
+        "quality": "medium",
+        "use_trained_json": true,
+        "offline_only": true
+      },
+      "search_text": "vanya waist up leaning against a stone wall near a waterfall calm cinematic nature model leaning with arms folded and relaxed smile waterfall forest stone wall tasteful black satin blouse",
+      "final_prompt": "Use case: photorealistic-natural\nAsset type: AI-generated influencer image\nCharacter bible: \nOriginal fictional adult female AI influencer named Ira Vanya.\nNature-forward luxury lifestyle persona, South Asian-inspired but not based on\nany real person, expressive brown eyes, long dark wavy hair, warm sun-kissed\nskin, natural makeup, confident editorial presence, elegant modern wardrobe.\nTasteful glamorous energy only: no nudity, no explicit pose, no transparent or\nfetish clothing, no watermark, no text, no logo.\n\nPrimary request: Vanya waist-up leaning against a stone wall near a waterfall, calm cinematic nature model\nPose: leaning with arms folded and relaxed smile\nPosture: confident mature fashion-editorial posture\nScene/backdrop: waterfall forest stone wall\nWardrobe: tasteful black satin blouse\nStyle/medium: photorealistic high-end fashion and nature lifestyle photography\nComposition/framing: vertical social-media campaign frame, polished influencer\nportrait, realistic anatomy, natural hands, clean depth of field\nLighting/mood: warm golden-hour light, fresh, confident, aspirational\nConstraints: \nCreate an original fictional person only. Do not copy, imitate, or recreate the\nlikeness of Vrutika Patel, celebrities, influencers, private people, or any real\nperson. If a reference image is supplied, use it only as a broad character\nconsistency reference when the user owns or has licensed it.\n\nAvoid: nudity, explicit sexual content, copied real-person likeness, text, logo,\nwatermark, distorted hands, extra fingers, plastic skin, uncanny face",
+      "learned_profile": {
+        "profile_schema_version": 3,
+        "position": {
+          "primary": "leaning",
+          "tags": [
+            "leaning"
+          ],
+          "source_text": "leaning with arms folded and relaxed smile"
+        },
+        "posture": {
+          "primary": "relaxed",
+          "tags": [
+            "relaxed",
+            "arms folded",
+            "soft smile"
+          ],
+          "source_text": "leaning with arms folded and relaxed smile"
+        },
+        "structure": {
+          "primary": "waist-up",
+          "tags": [
+            "waist-up"
+          ],
+          "framing": "waist-up",
+          "body_style_tags": []
+        },
+        "setting": {
+          "primary": "forest",
+          "tags": [
+            "forest",
+            "waterfall"
+          ],
+          "source_text": "waterfall forest stone wall"
+        },
+        "outfit": {
+          "primary": "satin",
+          "tags": [
+            "satin",
+            "black outfit"
+          ],
+          "source_text": "tasteful black satin blouse"
+        },
+        "mood": {
+          "primary": "natural",
+          "tags": [
+            "natural",
+            "cinematic"
+          ]
+        },
+        "training_caption": "iravanyaai, original fictional adult woman, leaning, relaxed, waist-up, forest, satin, mature nature glamour influencer, non explicit",
+        "training_keywords": [
+          "against",
+          "arms",
+          "black",
+          "blouse",
+          "calm",
+          "cinematic",
+          "folded",
+          "forest",
+          "leaning",
+          "model",
+          "nature",
+          "near",
+          "relaxed",
+          "satin",
+          "smile",
+          "stone",
+          "tasteful",
+          "up",
+          "waist",
+          "wall",
+          "waterfall"
+        ],
+        "safety": {
+          "real_person_likeness": "blocked",
+          "explicit_content": "blocked",
+          "mode": "original fictional adult character"
+        }
+      },
+      "position": {
+        "primary": "leaning",
+        "tags": [
+          "leaning"
+        ],
+        "source_text": "leaning with arms folded and relaxed smile"
+      },
+      "posture": {
+        "primary": "relaxed",
+        "tags": [
+          "relaxed",
+          "arms folded",
+          "soft smile"
+        ],
+        "source_text": "leaning with arms folded and relaxed smile"
+      },
+      "structure": {
+        "primary": "waist-up",
+        "tags": [
+          "waist-up"
+        ],
+        "framing": "waist-up",
+        "body_style_tags": []
+      },
+      "training_caption": "iravanyaai, original fictional adult woman, leaning, relaxed, waist-up, forest, satin, mature nature glamour influencer, non explicit",
+      "trained_images": [
+        "outputs/trained_cache/offline-a0577403e460819d143976ae.png"
+      ],
+      "files": [
+        "outputs/trained_cache/offline-a0577403e460819d143976ae.png"
+      ],
+      "url": "/outputs/trained_cache/offline-a0577403e460819d143976ae.png",
+      "source": "offline-local-model",
+      "created_at": "2026-04-30T04:59:08Z"
+    },
+    {
+      "id": "3af32883dc03bdeced8731ff",
+      "cache_key": "3af32883dc03bdeced8731ff",
+      "output_type": "image",
+      "request": {
+        "prompt": "Vanya sitting",
+        "output_type": "image",
+        "pose": "confident three-quarter fashion editorial pose",
+        "setting": "lush nature location at golden hour",
+        "outfit": "tasteful fitted nature-inspired fashion outfit",
+        "frame_count": 4,
+        "duration_seconds": 8,
+        "quality": "medium",
+        "use_trained_json": true,
+        "offline_only": true
+      },
+      "search_text": "vanya sitting confident three quarter fashion editorial pose lush nature location at golden hour tasteful fitted nature inspired fashion outfit",
+      "final_prompt": "Use case: photorealistic-natural\nAsset type: AI-generated influencer image\nCharacter bible: \nOriginal fictional adult female AI influencer named Ira Vanya.\nNature-forward luxury lifestyle persona, South Asian-inspired but not based on\nany real person, expressive brown eyes, long dark wavy hair, warm sun-kissed\nskin, natural makeup, confident editorial presence, elegant modern wardrobe.\nTasteful glamorous energy only: no nudity, no explicit pose, no transparent or\nfetish clothing, no watermark, no text, no logo.\n\nPrimary request: Vanya sitting\nPose: confident three-quarter fashion editorial pose\nPosture: confident mature fashion-editorial posture\nScene/backdrop: lush nature location at golden hour\nWardrobe: tasteful fitted nature-inspired fashion outfit\nStyle/medium: photorealistic high-end fashion and nature lifestyle photography\nComposition/framing: vertical social-media campaign frame, polished influencer\nportrait, realistic anatomy, natural hands, clean depth of field\nLighting/mood: warm golden-hour light, fresh, confident, aspirational\nConstraints: \nCreate an original fictional person only. Do not copy, imitate, or recreate the\nlikeness of Vrutika Patel, celebrities, influencers, private people, or any real\nperson. If a reference image is supplied, use it only as a broad character\nconsistency reference when the user owns or has licensed it.\n\nAvoid: nudity, explicit sexual content, copied real-person likeness, text, logo,\nwatermark, distorted hands, extra fingers, plastic skin, uncanny face",
+      "learned_profile": {
+        "profile_schema_version": 3,
+        "position": {
+          "primary": "seated",
+          "tags": [
+            "seated"
+          ],
+          "source_text": "confident three-quarter fashion editorial pose"
+        },
+        "posture": {
+          "primary": "confident",
+          "tags": [
+            "confident",
+            "editorial"
+          ],
+          "source_text": "confident three-quarter fashion editorial pose"
+        },
+        "structure": {
+          "primary": "three-quarter",
+          "tags": [
+            "three-quarter"
+          ],
+          "framing": "three-quarter",
+          "body_style_tags": []
+        },
+        "setting": {
+          "primary": "sunset",
+          "tags": [
+            "sunset"
+          ],
+          "source_text": "lush nature location at golden hour"
+        },
+        "outfit": {
+          "primary": "tasteful fitted nature inspired fashion outfit",
+          "tags": [],
+          "source_text": "tasteful fitted nature-inspired fashion outfit"
+        },
+        "mood": {
+          "primary": "natural",
+          "tags": [
+            "natural"
+          ]
+        },
+        "training_caption": "iravanyaai, original fictional adult woman, seated, confident, three-quarter, sunset, tasteful fitted nature inspired fashion outfit, mature nature glamour influencer, non explicit",
+        "training_keywords": [
+          "confident",
+          "editorial",
+          "fashion",
+          "fitted",
+          "golden",
+          "hour",
+          "inspired",
+          "location",
+          "lush",
+          "nature",
+          "outfit",
+          "pose",
+          "quarter",
+          "sitting",
+          "tasteful",
+          "three"
+        ],
+        "safety": {
+          "real_person_likeness": "blocked",
+          "explicit_content": "blocked",
+          "mode": "original fictional adult character"
+        }
+      },
+      "position": {
+        "primary": "seated",
+        "tags": [
+          "seated"
+        ],
+        "source_text": "confident three-quarter fashion editorial pose"
+      },
+      "posture": {
+        "primary": "confident",
+        "tags": [
+          "confident",
+          "editorial"
+        ],
+        "source_text": "confident three-quarter fashion editorial pose"
+      },
+      "structure": {
+        "primary": "three-quarter",
+        "tags": [
+          "three-quarter"
+        ],
+        "framing": "three-quarter",
+        "body_style_tags": []
+      },
+      "training_caption": "iravanyaai, original fictional adult woman, seated, confident, three-quarter, sunset, tasteful fitted nature inspired fashion outfit, mature nature glamour influencer, non explicit",
+      "trained_images": [
+        "outputs/trained_cache/offline-3af32883dc03bdeced8731ff.png"
+      ],
+      "files": [
+        "outputs/trained_cache/offline-3af32883dc03bdeced8731ff.png"
+      ],
+      "url": "/outputs/trained_cache/offline-3af32883dc03bdeced8731ff.png",
+      "source": "offline-local-model",
+      "created_at": "2026-04-30T05:05:37Z"
+    },
+    {
+      "id": "2515d4f7fa13f4bf022cf66c",
+      "cache_key": "2515d4f7fa13f4bf022cf66c",
+      "output_type": "image",
+      "request": {
+        "prompt": "Vanya eating",
+        "output_type": "image",
+        "pose": "confident three-quarter fashion editorial pose",
+        "setting": "lush nature location at golden hour",
+        "outfit": "tasteful fitted nature-inspired fashion outfit",
+        "frame_count": 4,
+        "duration_seconds": 8,
+        "quality": "medium",
+        "use_trained_json": false,
+        "offline_only": true
+      },
+      "search_text": "vanya eating confident three quarter fashion editorial pose lush nature location at golden hour tasteful fitted nature inspired fashion outfit",
+      "final_prompt": "Use case: photorealistic-natural\nAsset type: AI-generated influencer image\nCharacter bible: \nOriginal fictional adult female AI influencer named Ira Vanya.\nNature-forward luxury lifestyle persona, South Asian-inspired but not based on\nany real person, expressive brown eyes, long dark wavy hair, warm sun-kissed\nskin, natural makeup, confident editorial presence, elegant modern wardrobe.\nTasteful glamorous energy only: no nudity, no explicit pose, no transparent or\nfetish clothing, no watermark, no text, no logo.\n\nPrimary request: Vanya eating\nPose: confident three-quarter fashion editorial pose\nPosture: confident mature fashion-editorial posture\nScene/backdrop: lush nature location at golden hour\nWardrobe: tasteful fitted nature-inspired fashion outfit\nStyle/medium: photorealistic high-end fashion and nature lifestyle photography\nComposition/framing: vertical social-media campaign frame, polished influencer\nportrait, realistic anatomy, natural hands, clean depth of field\nLighting/mood: warm golden-hour light, fresh, confident, aspirational\nConstraints: \nCreate an original fictional person only. Do not copy, imitate, or recreate the\nlikeness of Vrutika Patel, celebrities, influencers, private people, or any real\nperson. If a reference image is supplied, use it only as a broad character\nconsistency reference when the user owns or has licensed it.\n\nAvoid: nudity, explicit sexual content, copied real-person likeness, text, logo,\nwatermark, distorted hands, extra fingers, plastic skin, uncanny face",
+      "learned_profile": {
+        "profile_schema_version": 3,
+        "position": {
+          "primary": "portrait pose",
+          "tags": [],
+          "source_text": "confident three-quarter fashion editorial pose"
+        },
+        "posture": {
+          "primary": "confident",
+          "tags": [
+            "confident",
+            "editorial"
+          ],
+          "source_text": "confident three-quarter fashion editorial pose"
+        },
+        "structure": {
+          "primary": "three-quarter",
+          "tags": [
+            "three-quarter"
+          ],
+          "framing": "three-quarter",
+          "body_style_tags": []
+        },
+        "setting": {
+          "primary": "sunset",
+          "tags": [
+            "sunset"
+          ],
+          "source_text": "lush nature location at golden hour"
+        },
+        "outfit": {
+          "primary": "tasteful fitted nature inspired fashion outfit",
+          "tags": [],
+          "source_text": "tasteful fitted nature-inspired fashion outfit"
+        },
+        "mood": {
+          "primary": "natural",
+          "tags": [
+            "natural"
+          ]
+        },
+        "training_caption": "iravanyaai, original fictional adult woman, portrait pose, confident, three-quarter, sunset, tasteful fitted nature inspired fashion outfit, mature nature glamour influencer, non explicit",
+        "training_keywords": [
+          "confident",
+          "eating",
+          "editorial",
+          "fashion",
+          "fitted",
+          "golden",
+          "hour",
+          "inspired",
+          "location",
+          "lush",
+          "nature",
+          "outfit",
+          "pose",
+          "quarter",
+          "tasteful",
+          "three"
+        ],
+        "safety": {
+          "real_person_likeness": "blocked",
+          "explicit_content": "blocked",
+          "mode": "original fictional adult character"
+        }
+      },
+      "position": {
+        "primary": "portrait pose",
+        "tags": [],
+        "source_text": "confident three-quarter fashion editorial pose"
+      },
+      "posture": {
+        "primary": "confident",
+        "tags": [
+          "confident",
+          "editorial"
+        ],
+        "source_text": "confident three-quarter fashion editorial pose"
+      },
+      "structure": {
+        "primary": "three-quarter",
+        "tags": [
+          "three-quarter"
+        ],
+        "framing": "three-quarter",
+        "body_style_tags": []
+      },
+      "training_caption": "iravanyaai, original fictional adult woman, portrait pose, confident, three-quarter, sunset, tasteful fitted nature inspired fashion outfit, mature nature glamour influencer, non explicit",
+      "trained_images": [
+        "outputs/trained_cache/offline-2515d4f7fa13f4bf022cf66c.png"
+      ],
+      "files": [
+        "outputs/trained_cache/offline-2515d4f7fa13f4bf022cf66c.png"
+      ],
+      "url": "/outputs/trained_cache/offline-2515d4f7fa13f4bf022cf66c.png",
+      "source": "offline-local-model",
+      "created_at": "2026-04-30T05:05:55Z"
     }
   ]
 }

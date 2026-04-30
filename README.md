@@ -1,6 +1,6 @@
 # Original AI Influencer Image API
 
-This project creates a fictional, rights-safe nature influencer character and generates many poses/postures through the OpenAI Images API. It does not train on, copy, or recreate a real influencer's likeness.
+This project creates a fictional, rights-safe nature influencer character. It now runs local-first with a trained JSON/offline model so repeated or new prompts can work without OpenAI billing.
 
 To run: 
 ```python -m uvicorn influencer_api:app --host 127.0.0.1 --port 8001  ```
@@ -11,8 +11,6 @@ To run:
 python -m venv .venv
 .\\.venv\\Scripts\\Activate.ps1
 pip install -r requirements.txt
-Copy-Item .env.example .env
-notepad .env
 uvicorn influencer_api:app --reload --host 127.0.0.1 --port 8000
 ```
 
@@ -28,7 +26,15 @@ Open the Vanya web app at:
 http://127.0.0.1:8000/
 ```
 
-The web app lets you enter a prompt and choose either `Image` or `Short reel`. Reels generate several vertical Vanya frames and stitch them into an MP4 saved in `outputs/`.
+The web app lets you enter a prompt and choose either `Image` or `Short reel`. By default it uses the offline local model, creates media from local assets, and saves the prompt/output into `trained_data/trained_vanya.json`.
+
+OpenAI calls are disabled by default:
+
+```text
+ALLOW_OPENAI_API=false
+```
+
+Only set `ALLOW_OPENAI_API=true` if you intentionally want to spend OpenAI API credits.
 
 ## Trained JSON Cache / Offline Reuse
 
@@ -38,16 +44,32 @@ The app now keeps a local trained JSON cache here:
 trained_data/trained_vanya.json
 ```
 
-When `Use trained JSON` is enabled in the web app, the app checks this file before calling OpenAI. If the same prompt/settings already exist, it returns the saved image or reel offline with no token use.
+When `Use trained JSON` is enabled in the web app, the app checks this file first. If the same prompt/settings already exist, it returns the saved image or reel offline with no token use.
 
-If `Offline only` is enabled, the app never calls OpenAI. It returns a trained JSON match if available, otherwise it shows a cache-miss message.
+If the input is new, the offline local model creates an image or reel from local assets and saves the result into `trained_vanya.json`. The next same prompt is served from JSON.
+
+The offline model profile is here:
+
+```text
+trained_data/vanya_offline_model.json
+```
 
 Useful endpoints:
 
 ```text
 http://127.0.0.1:8000/trained-json/status
 http://127.0.0.1:8000/trained-json
+http://127.0.0.1:8000/trained-json/training-map
+http://127.0.0.1:8000/offline-model
 ```
+
+Every new prompt now updates the trained JSON with:
+
+- generated local image or reel files
+- detected position, such as `standing`, `walking`, `seated`, `over shoulder`
+- detected posture, such as `confident`, `relaxed`, `hands on waist`
+- detected structure, such as `portrait`, `full-body`, `waist-up`, `curvy`
+- setting, outfit, mood, safety metadata, and a LoRA-style training caption
 
 ## Generate One Image
 
