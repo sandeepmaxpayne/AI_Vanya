@@ -2,6 +2,9 @@
 
 This project creates a fictional, rights-safe nature influencer character and generates many poses/postures through the OpenAI Images API. It does not train on, copy, or recreate a real influencer's likeness.
 
+To run: 
+```python -m uvicorn influencer_api:app --host 127.0.0.1 --port 8001  ```
+
 ## Setup
 
 ```powershell
